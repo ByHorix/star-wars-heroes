@@ -1,0 +1,19 @@
+.node {
+    @apply flex items-center justify-center; /* flexbox styles */
+    @apply h-8; /* sizing styles */
+    @apply bg-indigo-900; /* background styles */
+    @apply border rounded-lg border-cyan-200; /* border styles */
+    @apply text-slate-200; /* text color styles */
+    @apply relative; /* position styles */
+}
+
+.node__content {
+    @apply text-center; /* text placement style */
+    @apply my-2 pl-12 pr-2; /* margin & padding styles */
+}
+
+.node__label {
+    @apply absolute top-1 left-1; /* position styles */
+    @apply text-xs; /* text sizing styles */
+    @apply opacity-75; /* opacity styles */
+}

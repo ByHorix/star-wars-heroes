@@ -1,0 +1,10 @@
+.btn {
+    @apply px-4 py-2 w-fit; /* sizing styles */
+    @apply bg-indigo-900 text-slate-200 shadow-inner shadow-cyan-100; /* color styles */
+    @apply border border-cyan-200 rounded; /* border styles */
+    @apply transition-colors duration-200; /* transition styles */
+}
+
+.btn:hover {
+    @apply shadow-cyan-300 bg-indigo-800;
+}

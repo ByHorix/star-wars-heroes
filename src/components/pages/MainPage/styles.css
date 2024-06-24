@@ -1,0 +1,14 @@
+.main-page {
+    @apply flex items-center justify-center; /* flex styles */
+    @apply h-screen; /* height styles */
+    @apply transition-all duration-500; /* transition styles */
+}
+
+.main-page.slide-up {
+    @apply -translate-y-full; /* adding slide-up transition before redirecting to another page */
+}
+
+.main-page__content {
+    @apply flex items-center flex-col gap-4; /* flex styles */
+    @apply text-center; /* text placement styles */
+}

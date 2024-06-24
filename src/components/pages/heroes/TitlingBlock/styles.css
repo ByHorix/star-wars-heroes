@@ -1,0 +1,7 @@
+.title-block {
+    @apply flex place-items-center gap-10;
+}
+
+.title-block__link {
+    @apply flex items-center gap-2;
+}

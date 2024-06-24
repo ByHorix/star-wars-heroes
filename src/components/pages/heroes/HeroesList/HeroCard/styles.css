@@ -1,0 +1,7 @@
+.hero-card {
+    @apply rounded-xl transition-all duration-500;
+}
+
+.hero-card.extended {
+    @apply bg-slate-600 z-10;
+}

@@ -1,0 +1,11 @@
+.hero-preview-card {
+    @apply border border-indigo-900 rounded-xl; /* border styles */
+    @apply bg-slate-900; /* background styles */
+    @apply p-4; /* padding styles */
+    @apply text-xl text-center; /* text styles */
+    @apply transition-all duration-200; /* transition styles */
+}
+
+.hero-preview-card.skeleton {
+    @apply animate-pulse h-20 bg-slate-600;
+}

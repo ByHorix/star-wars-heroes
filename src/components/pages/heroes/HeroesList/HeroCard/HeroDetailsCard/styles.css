@@ -1,0 +1,23 @@
+.hero-details-card {
+    @apply relative;
+}
+
+.hero-details-card:not(.open) {
+    @apply hidden;
+}
+
+.hero-details-card .close-icon {
+    @apply absolute top-4 right-4 z-10 cursor-pointer;
+}
+
+.hero-details-card.loading {
+    @apply bg-slate-500 animate-pulse h-60;
+}
+
+.hero-details-card__flow-wrapper {
+    @apply h-full;
+}
+
+.hero-details-card__flow {
+    @apply bg-slate-900 border rounded-xl border-indigo-900;
+}

@@ -1,0 +1,7 @@
+.heroes-list {
+    @apply flex-1 grid grid-cols-1 gap-4; /* flex & grid styles */
+    @apply border border-cyan-200 rounded-xl; /* border styles */
+    @apply overflow-y-scroll; /* overflow style */
+    @apply p-4; /* padding style */
+    @apply relative; /* position style */
+}
