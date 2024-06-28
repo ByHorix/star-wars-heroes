@@ -34,7 +34,7 @@ export default function MainPage() {
             }
         )}>
             <div className="main-page__content">
-                <Title>Explore the heroes of Star Wars and find your favorite</Title>
+                <Title>Explore the heroes of Star Wars and see the lists of films and starships related to each hero!</Title>
                 <Button onClick={handleButtonClick}>Go explore!</Button>
             </div>
         </div>
