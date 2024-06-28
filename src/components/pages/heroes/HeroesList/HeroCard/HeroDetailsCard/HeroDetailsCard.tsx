@@ -96,6 +96,7 @@ export const HeroDetailsCard = ({heroData, open, close, setFlowContainerHeight, 
                 width={20}
                 height={20}
                 onClick={close}
+                data-testid="close-icon"
             />
             <div className="hero-details-card__flow-wrapper">
                 {isLoaded && open && <ReactFlow

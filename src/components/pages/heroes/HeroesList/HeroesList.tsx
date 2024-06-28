@@ -15,10 +15,11 @@ import {fetchHeroes} from "@/services/swapi";
 // Composition components imports
 import {HeroCard} from "@/components/pages/heroes/HeroesList/HeroCard/HeroCard";
 import {HeroPreviewSkeleton} from "@/components/pages/heroes/HeroesList/HeroCard/HeroPreviewCard/HeroPreviewSkeleton";
+import {Hero} from "@/types/swapiData";
 
 export const HeroesList = ({initialHeroesList}: {initialHeroesList: any[]}) => {
     // array of heroes to render
-    const [heroes, setHeroes] = useState<any[]>(initialHeroesList);
+    const [heroes, setHeroes] = useState<Hero[]>(initialHeroesList);
     // page for paginated fetching for new items of heroes list
     const [page, setPage] = useState(1);
     // pagesEnded === true, when all heroes in heroes list are already fetched

@@ -65,6 +65,7 @@ export const HeroCard = ({heroData}: {heroData: Hero}) => {
                 {extended}
             )}
             onClick={expandCard}
+            data-testid={`hero-card-${heroData.name}`}
         >
             {!extended && <HeroPreviewCard heroData={heroData}/>}
             <HeroDetailsCard

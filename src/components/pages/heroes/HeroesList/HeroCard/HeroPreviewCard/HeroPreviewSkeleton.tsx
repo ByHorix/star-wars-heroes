@@ -15,6 +15,7 @@ import {SkeletonProps} from "@/types/props";
 const HeroPreviewSkeleton = forwardRef<HTMLDivElement, SkeletonProps>((props, ref) => {
     return (
         <div
+            data-testid="infinite-scroll-skeleton"
             ref={ref}
             className={cn(
                 "hero-preview-card skeleton",
