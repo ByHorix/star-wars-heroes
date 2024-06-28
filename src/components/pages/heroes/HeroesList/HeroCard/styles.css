@@ -1,5 +1,5 @@
 .hero-card {
-    @apply rounded-xl transition-all duration-500;
+    @apply rounded-xl transition-all duration-500 cursor-pointer;
 }
 
 .hero-card.extended {
