@@ -99,13 +99,15 @@ export const HeroDetailsCard = ({heroData, open, close, setFlowContainerHeight, 
                 data-testid="close-icon"
             />
             <div className="hero-details-card__flow-wrapper">
-                {isLoaded && open && <ReactFlow
+                {isLoaded && open && !error && <ReactFlow
                     nodes={nodes}
                     edges={edges}
                     preventScrolling={false}
                     nodeTypes={nodeTypes}
                     className="hero-details-card__flow"
                 />}
+                {/* Basic error handling */}
+                {error && <p>Something went wrong...</p>}
             </div>
         </div>
     );
